@@ -1,0 +1,18 @@
+{
+
+"eamil":"aa@a.com",
+"password":"123456",
+"resourcename":"مورد تست",
+"resourceaddress":"عنوان تست",
+"resourcephone":"12345678",
+"resourcetaxnumber":"123",
+"resourceinvoicenumber":"0011",
+"Barcode":"000",
+"nameproductar":"منتج تست",
+"nameproducten":"test product",
+"priceunit":"10",
+"data":"2017-06-01T08:30",
+"amountvalue":"1",
+"Withdrawamount":"4"
+
+}
