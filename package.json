@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node your-script.js"
-
   },
   "keywords": [],
   "author": "",
@@ -18,5 +17,4 @@
   "devDependencies": {
     "cypress-email-results": "^1.8.0"
   }
- 
 }

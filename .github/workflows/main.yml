@@ -1,6 +1,8 @@
 name: rofood-cypress-project
 
 on:
+   schedule:
+     - cron: '*5 * * * *'
    push:
       branches: ["main"]
 
@@ -10,4 +12,10 @@ jobs:
       steps:
          - uses: actions/checkout@v3
          - uses: cypress-io/github-action@v4
-          
+           with:
+          python-version: 3.x
+      - name: Run email code
+        env:
+          USER_EMAIL: ${{ secrets.USER_EMAIL }}
+          USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
+        run: python send_email.py
