@@ -1,18 +1,18 @@
 name: rofood-cypress-project
 
+
 on:
    schedule:
      - cron: '*5 * * * *'
-   push:
-      branches: ["main"]
+  workflow_dispatch:
 
 jobs:
-   test:
-      runs-on: macos-latest
-   steps:
-         - uses: actions/checkout@v3
-         - uses: cypress-io/github-action@v4
-           with:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
           python-version: 3.x
       - name: Run email code
         env:
