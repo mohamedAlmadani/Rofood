@@ -6,11 +6,9 @@ pipeline{
         choice(name:'BROWSER',choices:['chrome','edge','firefox'],description:"choice the browser yo want to execute ypur scripts")
 
     }
-    options{
-        ansiColor('xterm')
-    }
+    
     stages{
-       stage('Deploying'){
+       stage('Building'){
         steps{
             echo "Building the application"
 
