@@ -52,7 +52,7 @@ cy.get('[id="d0"]').should('be.visible').click({force:true});
 
 ClickConfirmAndCreateInvoice(){
 
-    cy.get('[id="submit"]').click({multiple: true});
+    cy.get('[value="sell"]').first().click({ focus:true});
 }
 ConfirmationSaleShowMessage(){
     cy.get('[id="exampleModalLabel"]').should('contain',"تمت عملية البيع بنجاح");

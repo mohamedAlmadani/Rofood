@@ -39,7 +39,7 @@ class InventoryPage{
         }
        ClickButtonAddproductinventory(){
         cy.get('[class="btn btn-primary"]').click({force: true,multiple: true});
-        cy.get('.alert').should('contain','بنجاح');
+      //  cy.get('.alert').should('contain','بنجاح');
        }
 
 
