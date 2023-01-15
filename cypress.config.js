@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: 'hj356s',
   e2e: {
     baseUrl: "https://pos.rofood.co/login" ,
     viewportWidth: 1440,

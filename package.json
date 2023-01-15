@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node your-script.js"
+    "start": "node your-script.js",
+    "test:report":"npx cypress run --record --key 4eb97121-e822-4fde-a955-02494b8c3cef",
+    "cypress:ci": "concurrently \"cypress run\" --kill-others \"ng serve\" --success first"
+
   },
   "keywords": [],
   "author": "",
@@ -15,6 +18,8 @@
     "cypress": "^12.0.1"
   },
   "devDependencies": {
+    "concurrently": "^7.6.0",
     "cypress-email-results": "^1.8.0"
   }
+  
 }
