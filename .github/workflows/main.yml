@@ -1,8 +1,7 @@
 name: Rofood-cypress
 
 on:
-   schedule:
-   - cron:  '*/15 * * * *'   
+   
   
    push:
       branches: ["yt"]
@@ -15,10 +14,7 @@ jobs:
       steps:
          - uses: actions/checkout@v3
          - uses: cypress-io/github-action@v4
-          - name: Remove scheduled job
-            uses: cardinalby/unschedule-job-action@v1
-             with:
-             ghToken: ${{ secrets.WORKFLOWS_TOKEN }} 
+        
            with:
               record: true
            env:
