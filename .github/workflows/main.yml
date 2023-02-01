@@ -6,7 +6,7 @@ on:
       branches: ["main"]
 
    schedule: ## Schedule the job to run at 12.am daily.
-      - cron: '12 16 * 10 7'   
+   - cron: "12 16 * 10 7"   
   
 jobs:
    test:
