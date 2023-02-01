@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node your-script.js",
-    "test:report":"npx cypress run --record --key 4eb97121-e822-4fde-a955-02494b8c3cef"
+    "test:report":"npx cypress run --record --key fc789b79-e818-43a1-ba48-7a632f550ff5"
+   
    
 
   },
