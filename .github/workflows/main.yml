@@ -1,10 +1,13 @@
 name: Rofood-cypress
 
 on:
+
    push:
       branches: ["main"]
-  schedule: ## Schedule the job to run at 12.am daily.
-  - cron: '12 16 * 10 7'
+
+   schedule: ## Schedule the job to run at 12.am daily.
+      - cron: '12 16 * 10 7'   
+  
 jobs:
    test:
       runs-on: macos-latest
