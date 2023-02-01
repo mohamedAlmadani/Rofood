@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node your-script.js",
-    "test:report":"npx cypress run --record --key 4eb97121-e822-4fde-a955-02494b8c3cef",
-    "cypress:ci": "concurrently \"cypress run\" --kill-others \"ng serve\" --success first"
+    "test:report":"npx cypress run --record --key 4eb97121-e822-4fde-a955-02494b8c3cef"
+   
 
   },
   "keywords": [],

@@ -1,0 +1,17 @@
+name: Rofood-cypress
+
+on:
+   push:
+      branches: ["main"]
+   schedule: ## Schedule the job to run at 12.am daily.
+    - cron: '12 16 * 10 7'
+jobs:
+   test:
+      runs-on: macos-latest
+      steps
+         - uses: actions/checkout@v3
+         - uses: cypress-io/github-action@v4
+           with:
+              record: true
+           env:
+              CYPRESS_RECORD_KEY: 4eb97121-e822-4fde-a955-02494b8c3cef
