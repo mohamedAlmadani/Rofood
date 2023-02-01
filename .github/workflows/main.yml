@@ -1,7 +1,7 @@
 name: Rofood-cypress
+
 on:
-  schedule:
-    - cron: '12 16 * 10 7'
+  
    push:
       branches: ["yt"]
 
