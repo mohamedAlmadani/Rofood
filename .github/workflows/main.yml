@@ -6,11 +6,11 @@ on:
   
    push:
       branches: ["yt"]
-      
+
  schedule:
     # * is a special character in YAML so you have to quote this string
-      - cron:  '0 0 * * *'
-      - timezone: 'Saudi Arabia'
+   - cron:  '0 0 * * *'
+   - timezone: 'Saudi Arabia'
   
   
 jobs:
