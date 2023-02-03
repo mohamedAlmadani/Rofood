@@ -1,14 +1,16 @@
 name: Rofood-cypress
 
-  on:
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '30 5,17 * * *'
+on:
+ 
    
   
    push:
       branches: ["yt"]
-
+      
+ schedule:
+    # * is a special character in YAML so you have to quote this string
+      - cron:  '0 0 * * *'
+      - timezone: 'Saudi Arabia'
   
   
 jobs:
