@@ -74,7 +74,6 @@ class outstandingInvoicePage{
         
         cy.get('[class="btn btn-danger"]').click({multiple: true,force :true});
         cy.get('[class="btn btn-primary"]').click({force:true,multiple: true});
-        //cy.get('#modaltrigger > .box').should('contain',"استرجاع");
 
 
 
