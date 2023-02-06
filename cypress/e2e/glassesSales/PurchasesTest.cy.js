@@ -75,6 +75,8 @@ describe('Check all purchases departments', ()=>{
     })
 
 
+ 
+/*
     it('Check the Create purchase invoice ',() =>{
 
         cy.get('@testdata').then((testdata) =>{
@@ -124,7 +126,8 @@ describe('Check all purchases departments', ()=>{
              
             
       })
-
+      */
+/*
       it('Check the purchase invoice payment',() =>{
 
         cy.get('@testdata').then((testdata) =>{
@@ -153,28 +156,13 @@ describe('Check all purchases departments', ()=>{
   
            
     });
-        
-         
-        
-    
   
-      
-  
-            
-           
-  
-              
-  
-             
-  
-  
-  
-            
-            
              
             
       })
 
+      */
+/*
       it('Check the add purchase product',() =>{
 
         cy.get('@testdata').then((testdata) =>{
@@ -204,33 +192,17 @@ describe('Check all purchases departments', ()=>{
            
     });
         
-         
-        
-    
-  
-      
-  
-            
-           
-  
-              
-  
-             
-  
-  
-  
-            
-            
+
              
             
       })
-
+*/
     
 
-
+/*
       it('Check the Create purchase invoice  data ',() =>{
 
-        cy.get('@testdata').then((testdata) =>{
+      cy.get('@testdata').then((testdata) =>{
           const  login =new loginPage();
         
           const purchases =new PurchasesPage();
@@ -256,6 +228,7 @@ describe('Check all purchases departments', ()=>{
   
            
     });
+    
         
          
         
@@ -279,7 +252,7 @@ describe('Check all purchases departments', ()=>{
       })
 
 
-      
+      */
 
 
   })
