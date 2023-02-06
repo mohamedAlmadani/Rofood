@@ -5,6 +5,7 @@ import cashierPage  from "../../pages/glassesShop/sales/cashierPage"
 
 
 
+
 describe('Check all cashier departments', ()=>{
     beforeEach(()=>{
       
@@ -131,3 +132,7 @@ describe('Check all cashier departments', ()=>{
 
 
   })
+
+
+
+ 
