@@ -144,7 +144,7 @@ describe('Check all Inventory departments', ()=>{
            
           
     })
-/*
+
     it('check if Jarad is added',() =>{
 
       cy.get('@testdata').then((testdata) =>{
@@ -357,7 +357,7 @@ describe('Check all Inventory departments', ()=>{
            
           
     })
-*/
+
    
 
     
