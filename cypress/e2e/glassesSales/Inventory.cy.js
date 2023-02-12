@@ -162,7 +162,7 @@ describe('Check all Inventory departments', ()=>{
           newinvoice.IgnoreTheCashier();
           
           Inventory.clickTomenua();
-          Inventory.addJarad(testdata.Barcode);
+          Inventory.addJarad(testdata.BarcodeJarad);
           
          
           

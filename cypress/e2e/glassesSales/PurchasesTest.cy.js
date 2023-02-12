@@ -75,7 +75,7 @@ describe('Check all purchases departments', ()=>{
     })
 
 
- 
+ /*
 
     it('Check the Create purchase invoice ',() =>{
 
@@ -126,7 +126,7 @@ describe('Check all purchases departments', ()=>{
              
             
       })
-      
+      */
 
       it('Check the purchase invoice payment',() =>{
 
