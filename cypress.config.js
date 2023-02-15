@@ -10,6 +10,8 @@ module.exports = defineConfig({
     specPattern:'cypress/e2e/all.cy.js',
     experimentalWebKitSupport: true,
     videoUploadOnPasses: true,
+    defaultCommandTimeout: 10_000,
+
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
